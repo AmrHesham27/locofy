@@ -1,0 +1,275 @@
+.rectangle1 {
+  width: 375px;
+  height: 812px;
+  position: relative;
+  background-color: #030b0d;
+  display: none;
+  max-width: 100%;
+  z-index: 0;
+}
+.time4 {
+  text-decoration: none;
+  flex: 1;
+  position: relative;
+  letter-spacing: -0.33px;
+  font-weight: 600;
+  color: inherit;
+}
+.layout {
+  width: 64.3px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-8xs);
+  box-sizing: border-box;
+}
+.photo {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.01em;
+  font-weight: 400;
+  font-family: inherit;
+  z-index: 2;
+}
+.union-icon1 {
+  height: 38px;
+  width: 38px;
+  position: absolute;
+  margin: 0 !important;
+  top: 5px;
+  left: 68px;
+  z-index: 2;
+}
+.photo-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 68px 23px;
+  position: relative;
+  font-size: 48px;
+  font-family: var(--font-comfortaa);
+}
+.connections-icon2 {
+  position: absolute;
+  top: 15px;
+  left: 293px;
+  width: 68px;
+  height: 16px;
+  object-fit: contain;
+}
+.rectangle-icon1,
+.union-icon2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+.union-icon2 {
+  top: 312px;
+  left: 84px;
+  width: 38px;
+  height: 38px;
+  object-fit: contain;
+  z-index: 3;
+}
+.connections-parent {
+  width: 100%;
+  height: 707px;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+.profile-picture-icon {
+  height: 28px;
+  width: 28px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+  min-height: 28px;
+}
+.pawel-czerwinski,
+.pawel-czerwinski1 {
+  position: relative;
+  display: inline-block;
+  min-width: 103px;
+}
+.pawel-czerwinski1 {
+  font-size: var(--font-size-2xs);
+  color: var(--color-gray-300);
+  min-width: 96px;
+}
+.component6,
+.user-name {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.component6 {
+  flex-direction: row;
+  padding: 0 var(--padding-xl) 0 0;
+  gap: var(--gap-5xs);
+  z-index: 2;
+}
+.login-background {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-7xs);
+  background-color: var(--color-white);
+  border: 2px solid var(--color-black);
+  box-sizing: border-box;
+}
+.log-in2 {
+  position: relative;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  font-weight: 900;
+  display: inline-block;
+  min-width: 44px;
+  z-index: 1;
+}
+.button2 {
+  flex: 0.2695;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-lgi) 61px var(--padding-lg);
+  position: relative;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.register-background {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-7xs);
+  background-color: var(--color-black);
+}
+.button3,
+.register2 {
+  position: relative;
+  z-index: 1;
+}
+.register2 {
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  font-weight: 900;
+  display: inline-block;
+  min-width: 65px;
+}
+.button3 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-lgi) 51px var(--padding-lg);
+  cursor: pointer;
+}
+.register3 {
+  position: relative;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  display: inline-block;
+  min-width: 65px;
+}
+.registration-label {
+  flex-direction: column;
+  padding: var(--padding-11xs) 0 0;
+  margin-left: -116px;
+  color: var(--color-black);
+  font-family: var(--font-sf-pro-text);
+}
+.actions,
+.registration,
+.registration-label,
+.user {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.registration {
+  flex: 1;
+  flex-direction: row;
+  color: var(--color-white);
+}
+.actions,
+.user {
+  align-self: stretch;
+}
+.actions {
+  flex-direction: row;
+  gap: var(--gap-4xs);
+  text-align: center;
+  font-size: var(--font-size-smi);
+  color: var(--color-black);
+  font-family: var(--font-roboto);
+}
+.user {
+  flex-direction: column;
+  gap: 40px;
+}
+.shape1 {
+  height: 5px;
+  width: 135px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-black);
+}
+.shape-container {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+}
+.logged-out,
+.user-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.user-parent {
+  align-self: stretch;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-smi);
+  font-family: var(--font-roboto);
+}
+.logged-out {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  padding: var(--padding-sm) var(--padding-base) var(--padding-5xs);
+  box-sizing: border-box;
+  gap: 275px;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  font-size: var(--font-size-mini);
+  color: var(--color-black);
+  font-family: var(--font-cairo);
+}
